@@ -1,0 +1,126 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #f0f0f0;
+}
+
+.title {
+    background-color: #2f3d4c;
+    color: white;
+    text-align: center;
+    border-radius: 1rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    flex-direction: column;
+}
+
+.title h1 {
+    margin-top: 1rem;
+    flex-basis: calc(100% - 150px);
+}
+
+.profile-header {
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    padding: 1rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-bottom: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column-reverse;
+}
+
+.profile-header h1 {
+    margin-top: 0;
+    flex-basis: calc(100% - 150px);
+}
+
+.profile-card {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.profile-card img {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
+}
+
+.profile-card-table {
+    background-color: white;
+    border-radius: 0.5rem;
+    padding: 1rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+  }
+  
+  .profile-card-table table {
+    width: 100%;
+    border-collapse: collapse;
+    text-align: center;
+  }
+  
+  .profile-card-table th,
+  .profile-card-table td {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    text-align: left;
+  }
+  
+  .profile-card-table th {
+    background-color: #f2f2f2;
+    text-align: center;
+  }
+  
+  .profile-card-table td:nth-child(3) {
+    text-align: center;
+  }
+
+.header-nav-text {
+font-size: 1.2rem;
+margin: 0;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #eee;
+}
+
+.col-md-4 p{
+    display: flex;
+    justify-content: center;
+    align-items: center;  
+}
+
+.social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+}
+
+.social-links a {
+    color: #007bff;
+    margin: 0 0.5rem;
+    font-size: 1.5rem;
+}
+
+footer p {
+    text-align: center;
+    padding: 20px;
+}

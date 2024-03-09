@@ -1,0 +1,8 @@
+html, body {
+    margin: 0;
+    background-image: linear-gradient(to bottom right, #95d9f9, #ae4bca);    
+}
+h1{
+    color: blue;
+    font-family: Tahoma, sans-serif;
+}
